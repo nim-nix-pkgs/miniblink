@@ -11,7 +11,6 @@
   inputs.src-miniblink-master.ref   = "refs/heads/master";
   inputs.src-miniblink-master.owner = "lihf8515";
   inputs.src-miniblink-master.repo  = "miniblink";
-  inputs.src-miniblink-master.dir   = "";
   inputs.src-miniblink-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
